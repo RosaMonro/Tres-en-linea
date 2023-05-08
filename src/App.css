@@ -1,0 +1,24 @@
+#root {
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 48px;
+  color: #F300B4;
+  text-shadow: 1px 1px 12px #FF66AF;
+}
+
+.square {
+  border: 1px solid #E3BF68;
+  background-color: #060E38;
+  color: #C9F4F4;
+  font-size: 24px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
