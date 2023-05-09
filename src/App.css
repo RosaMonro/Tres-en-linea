@@ -11,6 +11,8 @@ h1 {
 }
 
 .square {
+
+  gap: 10px;
   border: 1px solid #E3BF68;
   background-color: #060E38;
   color: #C9F4F4;
@@ -21,4 +23,9 @@ h1 {
   cursor: pointer;
 }
 
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
