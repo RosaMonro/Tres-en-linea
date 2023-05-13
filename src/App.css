@@ -1,21 +1,45 @@
 #root {
   padding: 2rem;
   text-align: center;
+  padding: 10% 30% 100%;
+  background-color: #080D30;
 }
 
 h1 {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 48px;
-  color: #F300B4;
-  text-shadow: 1px 1px 12px #FF66AF;
+  font-weight:100;
+  color: #ffffff;
+  text-shadow: 0 0 3px #fff, 
+                0 0 5px #ff00de, 
+                0 0 7px #ff00de, 
+                0 0 10px #ff00de, 
+                0 0 12px #ff00de,
+                0 0 15px #ff00de,
+                0 0 20px #ff00de;
+}
+
+.status {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 1rem;
+
 }
 
 .square {
-
   gap: 10px;
-  border: 1px solid #E3BF68;
+  border: 3px solid #E3BF68;
+  box-shadow: 0 0 1px #fff, 
+              0 0 2px #fff,
+              0 0 3px #E3BF68,
+              0 0 4px #E3BF68, 
+              0 0 8px #E3BF68;
   background-color: #060E38;
   color: #C9F4F4;
+  text-shadow: 0 0 1px #fff, 
+                0 0 2px #C9F4F4, 
+                0 0 5px #C9F4F4;
   font-size: 24px;
   font-weight: bold;
   width: 50px;
@@ -29,3 +53,11 @@ h1 {
   align-items: center;
 }
 
+.board {
+  padding: 75px;
+  border: 2px solid #31DDCF;
+  border-radius: 25%;
+  box-shadow: 0 0 1px #fff, 
+              0 0 5px #fff, 
+              0 0 10px #31DDCF;
+}
