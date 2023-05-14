@@ -33,9 +33,10 @@ function handleClick(i) {
 
 
   return <>
-    <h1>Tres en raya</h1>
-
+  
     <div className="board">
+
+    <h1>Tres en raya</h1>
 
     <div className="status">{status}</div>
 

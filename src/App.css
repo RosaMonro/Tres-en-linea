@@ -3,6 +3,7 @@
   text-align: center;
   padding: 10% 30% 100%;
   background-color: #080D30;
+
 }
 
 h1 {
@@ -37,7 +38,7 @@ h1 {
               0 0 8px #E3BF68;
   background-color: #060E38;
   color: #C9F4F4;
-  text-shadow: 0 0 1px #fff, 
+  text-shadow: 0 0 1px #C9F4F4, 
                 0 0 2px #C9F4F4, 
                 0 0 5px #C9F4F4;
   font-size: 24px;
@@ -47,6 +48,7 @@ h1 {
   cursor: pointer;
 }
 
+
 .board-row {
   display: flex;
   justify-content: center;
@@ -54,7 +56,7 @@ h1 {
 }
 
 .board {
-  padding: 75px;
+  padding: 75px 75px;
   border: 2px solid #31DDCF;
   border-radius: 25%;
   box-shadow: 0 0 1px #fff, 
