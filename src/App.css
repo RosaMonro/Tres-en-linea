@@ -2,7 +2,8 @@
   padding: 2rem;
   text-align: center;
   padding: 10% 30% 100%;
-  background-color: #080D30;
+  /* background-color: #080D30; */
+  background-color: #f9f9f9;;
 
 }
 
@@ -11,19 +12,18 @@ h1 {
   font-size: 48px;
   font-weight:100;
   color: #ffffff;
-  text-shadow: 0 0 3px #fff, 
-                0 0 5px #ff00de, 
-                0 0 7px #ff00de, 
-                0 0 10px #ff00de, 
-                0 0 12px #ff00de,
-                0 0 15px #ff00de,
-                0 0 20px #ff00de;
+  text-shadow: 0 0 2px #ff00de, 
+                0 0 3px #ff00de, 
+                0 0 6px #ff00de, 
+
+                0 0 8px #ff00de,
+                0 0 10px #ff00de;
 }
 
 .status {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
-  color: #ffffff;
+  color: #3b3a3a;
   margin: 1rem;
 
 }
