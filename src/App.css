@@ -67,7 +67,7 @@ h1 {
   }
 
   .board {
-        padding: 25px 25px;
+        padding: 25px 25px 57px 25px;
         border: 2px solid #31DDCF;
         border-radius: 25%;
         box-shadow: 0 0 1px #fff, 
